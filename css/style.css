@@ -236,8 +236,8 @@ img {
   padding-right: 32px;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.button:hover,
+.button:focus {
   background-color: #188ce8;
 }
 
