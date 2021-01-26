@@ -897,7 +897,7 @@ img {
   margin-bottom: 9px;
 }
 
-.sign-up {
+.footer-title {
   display: block;
   margin-bottom: 20px;
 
@@ -932,5 +932,48 @@ img {
 }
 
 .social-list-dark .icon {
+  fill: var(--primary-white-color);
+}
+
+.sign-up-box {
+  margin-left: auto;
+}
+
+.sign-up-field {
+  position: relative;
+  margin-right: 12px;
+}
+
+.sign-up-field input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  color: var(--primary-white-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: var(--primary-bg-color);
+}
+
+.sign-up-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sign-up-button {
+  position: relative;
+
+  padding-left: 29px;
+  padding-right: 62px;
+}
+
+.button .icon {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
   fill: var(--primary-white-color);
 }
